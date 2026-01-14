@@ -1,4 +1,4 @@
-#include "rpi_uart.h"
+#include "uart1.h"
 
 static struct uart_regs __iomem *uart = NULL;
 static void __iomem *gpio = NULL;
