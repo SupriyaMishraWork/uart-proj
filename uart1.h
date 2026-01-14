@@ -8,8 +8,8 @@
 #include <linux/io.h>  //  Memory-mapped I/O (ioremap, readl, writel)
 #include <linux/delay.h> // Timing functions (udelay, cpu_relax)
 
-#define PROC_UART_TX "uart_tx1"
-#define PROC_UART_RX "uart_rx1" //new chnage
+#define PROC_UART_TX "uart_tx"
+#define PROC_UART_RX "uart_rx" //new chnage
 // Base addresses for BCM2711 
 #define PERIPHERAL_BASE 0xFE000000UL
 #define AUX_BASE        (PERIPHERAL_BASE + 0x215000)
